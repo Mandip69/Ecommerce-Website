@@ -9,6 +9,10 @@
     "dev": "nodemon server.js",
     "seed": "node seed.js"
   },
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
@@ -18,9 +22,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  },
-  "engines": { 
-    "node": "18.x",
-   "license": "MIT"
- }
+  }
 }
