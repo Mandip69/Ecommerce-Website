@@ -159,7 +159,7 @@ export default function Cart({ cart, setCart }) {
             placeholder="Phone Number *"
             value={user.phone}
             onChange={(e) => setUser({ ...user, phone: e.target.value })}
-            className="border p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none w-full"
+            className="border p-3  rounded-lg focus:ring-2 focus:ring-green-500 outline-none w-full"
           />
           <input
             type="text"
