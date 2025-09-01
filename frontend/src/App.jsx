@@ -6,6 +6,8 @@ import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import About from "./pages/about";
 import Profile from "./pages/profile";
+import Footer from "./components/footer";
+import ContactPage from "./pages/contact";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -41,7 +43,9 @@ function App() {
         />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
