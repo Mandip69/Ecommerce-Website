@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
+import About from "./pages/about";
+import Profile from "./pages/profile";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -37,6 +39,8 @@ function App() {
           path="/cart"
           element={<Cart cart={cart} removeFromCart={removeFromCart} />}
         />
+        <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
   );
